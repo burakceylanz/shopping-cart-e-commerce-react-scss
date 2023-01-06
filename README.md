@@ -20,7 +20,7 @@ A simple shopping cart e-commerce application with React. Adding products, remov
 - React Icons
 
 ## Live Version
-Coming soon
+https://shopping-cart-react-scss-reduxtoolkit.netlify.app
 
 ## Images from the app
 ![1](https://user-images.githubusercontent.com/91959780/210937869-156d7013-ba07-432f-9c7c-2a337f74e746.png)
