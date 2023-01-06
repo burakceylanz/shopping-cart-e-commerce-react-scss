@@ -1,5 +1,5 @@
-# Simple ecommerce react js app with scss and redux toolkit
-Simple ecommerce react js app with scss and redux toolkit
+# Simple ecommerce react js app with scss and redux 
+A simple shopping cart e-commerce application with React. Adding products, removing products, updating baskets, searching for products were carried out. Redux Toolkit was used for state management. Scss preprocessor was used in the project.
 
 ## Completed Features
 - Launched with application listing screen.
