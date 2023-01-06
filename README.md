@@ -14,10 +14,10 @@ Adding to cart is done on the product detail page.
 Redux toolkit was used for state management.
 
 ## Used Packages
-React router dom
-Redux
-Redux Toolkit
-React Icons
+- React router dom
+- Redux
+- Redux Toolkit
+- React Icons
 
 
 
