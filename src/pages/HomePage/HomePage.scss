@@ -1,0 +1,35 @@
+@import "../../App.scss";
+
+.categories{
+    display:flex;
+    gap:24px;
+    .categories-item{
+        margin-bottom: 4.8rem!important;
+        width:70%;
+        @media screen and (max-width: 1024px){
+            width:100%;
+        }
+        .title-md{
+            margin-bottom: 2.8rem;
+        }
+    }
+    @media screen and (max-width: 1024px){
+        flex-direction: column;
+    }
+    .right-side{
+        width: 30%;
+    }
+}
+.add-to-cart{
+    background-color: $clr-primary;
+    margin-top: 1rem;
+    border-radius:3px;
+    padding: 5px 20px;
+    color:White;
+    width:100%;
+    border:1px solid  $clr-primary;
+    &:hover{
+        background-color: white;
+        color:$clr-primary;
+    }
+}

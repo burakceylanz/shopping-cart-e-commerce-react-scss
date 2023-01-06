@@ -1,0 +1,23 @@
+@import "../../App.scss";
+
+.pagination{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+    .page-button{
+        background-color: rgb(230, 221, 221);
+        padding:2px 12px;
+        border-radius: 3px;
+        color:white;
+    }
+    .active{
+        background-color: $clr-primary;
+        &:first-child{
+            background-color: $clr-primary;
+        }
+    }
+    a{
+        cursor:pointer;
+    }
+}

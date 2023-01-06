@@ -1,0 +1,112 @@
+@import "../../App.scss";
+
+.cart{
+    padding-top: 2rem;
+    @media screen and (max-width: 1024px){
+        width:100%;
+    }
+    .container{
+        padding: 0;
+    }
+    .cart-ctable{
+        .cart-ctr{
+            min-height: 40px;
+            border-bottom: 1px solid $clr-whitesmoke;
+            display: flex;
+            gap:24px;
+            align-items: center!important;
+        }
+        .cart-ctd{
+            .cart-ctpc{
+                color: rgb(41, 105, 255);
+                font-weight: 500;
+            }
+        }
+        .cart-empty{
+            color:$clr-primary;
+            font-weight: 500;
+            font-size:18px;
+            padding:2rem;
+        }
+        .cart-chead{
+            margin-bottom: 2rem;
+            padding-right: 2rem;
+            padding-left: 2rem;
+            box-shadow: rgba(60, 64, 67, 0.01) 0px 1px 2px 0px, rgba(60, 64, 67, 0.01) 0px 1px 3px 1px;
+            border-radius: 3px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .cart-cbody{
+            padding:2rem;
+            box-shadow: rgba(60, 64, 67, 0.01) 0px 1px 2px 0px, rgba(60, 64, 67, 0.01) 0px 1px 3px 1px;
+            border-radius: 3px;
+            font-size: 14.5px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        .delete-btn{
+            font-size: 14px;
+            transition: $transition-ease;
+            border:1px solid red;
+            border-radius:3px;
+            padding:2px;
+            color:red;
+            &:hover{
+                background-color: red;
+                color:white;
+            }
+        }
+        .qty-change{
+            .qty-decrease, .qty-increase{
+                font-size: 13px;
+                width: 28px;
+                height: 28px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                background-color: rgba(214, 214, 214, 0.264);
+            }
+            .qty-value{
+                width: 36px;
+                height: 28px;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                background-color: rgb(41, 105, 255);
+                color:white;
+            }
+        }
+        .cart-cfoot{
+            margin-top: 2rem;
+            padding-right: 2rem;
+            padding-left: 2rem;
+
+            .total-txt{
+                margin-right: -1rem;
+            }
+            .cart-cfoot-r{
+                align-items: center;
+                .total-price{
+                    font-size:15px;
+                }
+                .total-amount{
+                    color:rgb(41, 105, 255);
+                    font-size:15px;
+                }
+            }
+            .clear-cart-btn{
+                border: 1px solid $clr-danger;
+                padding: 0.7rem 1rem;
+                transition: $transition-ease;
+
+                &:hover{
+                    background-color: $clr-danger;
+                    color: $clr-white;
+                }
+            }
+            .checkout-btn{
+                margin-top: 0.7rem;
+                background-color: rgb(41, 105, 255);
+                width: 100%;
+                border-radius: 3px;
+                padding:5px 0px;
+            }
+        }
+    }
+}
