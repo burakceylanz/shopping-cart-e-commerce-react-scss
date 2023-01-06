@@ -19,9 +19,8 @@ Simple ecommerce react js app with scss and redux toolkit
 - Redux Toolkit
 - React Icons
 
-
-
-demo: https://shopping-cart-e-commerce-react-scss.netlify.app/
+## Live Version
+https://shopping-cart-e-commerce-react-scss.netlify.app/
 
 
 ![1](https://user-images.githubusercontent.com/91959780/210937869-156d7013-ba07-432f-9c7c-2a337f74e746.png)
